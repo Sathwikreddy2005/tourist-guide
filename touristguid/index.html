@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="home.css">
-</head>
-
-<body>
-       <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <a class="navbar-brand" href="#">
         <img
           src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/navbar-logo-img.png"
           class="navbar-image"
@@ -41,7 +30,7 @@
         </div>
       </div>
     </nav>
-  <div id="sectionHome">
+    <div id="sectionHome">
       <div class="bg-container d-flex flex-column justify-content-end">
         <div class="tourism-card">
           <h1 class="main-heading">Tourism</h1>
@@ -55,7 +44,7 @@
        <h1 class="favourite-places-heading">Favourite Places</h1>
        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedView')">
          <div>
-           <h1 class="favourite-place-card-heading"><a class="link-text" href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a></h1>
+           <h1 class="favourite-place-card-heading">Taj Mahal</h1>
            <p class="favourite-place-card-description">
              If there was just one symbol to represent all of India, it would be the
              Taj Mahal
@@ -68,7 +57,7 @@
        </div>
        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGoldenTempleDetailedView')">
          <div>
-           <h1 class="favourite-place-card-heading"><a class="link-text" href="https://en.wikipedia.org/wiki/Golden_Temple">Golden Temple</a></h1>
+           <h1 class="favourite-place-card-heading">Golden Temple</h1>
            <p class="favourite-place-card-description">
              Amritsar is world-famous for the beautiful and highly revered Golden
              Temple
@@ -81,7 +70,7 @@
        </div>
        <div class="favourite-place-card-container d-flex flex-row">
          <div>
-           <h1 class="favourite-place-card-heading"><a class="link-text" href="https://en.wikipedia.org/wiki/Mysore_Palace">Mysore Palace</a></h1>
+           <h1 class="favourite-place-card-heading">Mysore Palace</h1>
            <p class="favourite-place-card-description">
              The Mysore Palace is a historical palace and the royal residence at
              Mysore .
@@ -94,7 +83,7 @@
        </div>
        <div class="favourite-place-card-container d-flex flex-row">
          <div>
-           <h1 class="favourite-place-card-heading"><a class="link-text" href="https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple">Varanasi Temple</a></h1>
+           <h1 class="favourite-place-card-heading">Varanasi Temple</h1>
            <p class="favourite-place-card-description">
              Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva
            </p>
@@ -202,14 +191,8 @@
             <p class="detailed-view-card-description">
               The Golden Temple, also known as Harmandir Sahib is a gurdwara
               located in the city of Amritsar, Punjab, India. There are many
-              places to visit Near Golden Temple.
+              places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda Fort.
             </p>
-            <ol class="detailed-view-card-description">
-              <li>Jallianwala Bagh</li>
-              <li>Wagah Border</li>
-              <li>Harike Wetland</li>
-              <li>Bathinda Fort</li>
-            </ol>
           </div>
         </div>
         <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
@@ -217,7 +200,8 @@
         </button>
       </div>
     </div>
+    <link rel="stylesheet" href="style.css">
+   
     <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
-</body>
-
+  </body>
 </html>
